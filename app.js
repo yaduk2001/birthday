@@ -246,6 +246,10 @@ function initWishTyping() {
     // Capture the full text content (collapse whitespace nicely)
     const fullText = para.textContent.replace(/\s+/g, ' ').trim();
 
+    // Prevent card from collapsing when emptied on mobile by fixing min-height
+    const initialHeight = para.getBoundingClientRect().height;
+    if (initialHeight > 0) para.style.minHeight = `${initialHeight}px`;
+
     // Hide text immediately so there's no flash
     para.textContent = '';
 
