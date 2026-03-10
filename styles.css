@@ -1127,7 +1127,7 @@ a {
 
   /* Adjust corridor photo specifically to show head */
   .gallery-img.corridor {
-    object-position: 55% 15%;
+    object-position: center 5%;
   }
 
   /* ---- Wish card ---- */
@@ -1196,7 +1196,7 @@ a {
   }
 
   .gallery-img.corridor {
-    object-position: 55% 10%;
+    object-position: center 0%;
   }
 
   /* Wish */
