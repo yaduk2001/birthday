@@ -812,6 +812,14 @@ a {
   transform: scale(1.05);
 }
 
+.gallery-img.childhood {
+  object-position: center 10%;
+}
+
+.gallery-img.corridor {
+  object-position: 55% 25%;
+}
+
 
 /* ============================================
    A WISH SECTION
@@ -1117,6 +1125,11 @@ a {
     height: 380px;
   }
 
+  /* Adjust corridor photo specifically to show head */
+  .gallery-img.corridor {
+    object-position: 55% 5%;
+  }
+
   /* ---- Wish card ---- */
   .wish-card {
     padding: 2rem 1.2rem;
@@ -1180,6 +1193,10 @@ a {
 
   .g-full {
     height: 320px;
+  }
+
+  .gallery-img.corridor {
+    object-position: 55% 2%;
   }
 
   /* Wish */

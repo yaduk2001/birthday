@@ -259,7 +259,7 @@ function initWishTyping() {
                 typeText(para, fullText, 22);
             }
         });
-    }, { threshold: 0.4 });
+    }, { threshold: 0.1 });
 
     const cardToObserve = document.querySelector('.wish-card');
     if (cardToObserve) {
