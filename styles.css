@@ -1125,6 +1125,11 @@ a {
     height: 380px;
   }
 
+  /* Specifically increase height for the corridor image card so head isn't cropped */
+  .corridor-card {
+    height: 300px !important;
+  }
+
   /* Adjust corridor photo specifically to show head */
   .gallery-img.corridor {
     object-position: center 5%;
@@ -1193,6 +1198,11 @@ a {
 
   .g-full {
     height: 320px;
+  }
+
+  /* Specifically increase height for the corridor image card on very small screens */
+  .corridor-card {
+    height: 280px !important;
   }
 
   .gallery-img.corridor {
